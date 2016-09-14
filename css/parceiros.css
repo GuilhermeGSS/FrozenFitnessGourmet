@@ -1,0 +1,84 @@
+/* Estilização da página parceiros */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.esp_banner{
+	width: 100%;
+	height: 800px;
+	float: left;
+	margin-top: -180px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-image: url('../imagens/background_parceiros.png');
+}
+
+.esp_banner h1 {
+	font-size: 5em;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	position: relative;
+	top: 80%;
+}
+
+.esp_conteudo {
+	height: auto;
+	background-color: #f4f4f4;
+}
+
+.conteudo {
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	margin-top:30px;
+}
+
+.parceiros {
+	width: 250px;
+	height: 450px;
+	border:	2px solid #890000;
+	border-radius: 10px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-left: 32px;
+}
+
+.parceiros_imagem {
+	border-bottom: 1px solid #890000;
+}
+
+.parceiros_imagem img {
+	width: 50%;
+    padding: 20% 25%;
+}
+
+.parceiros_descricao {
+	width: 100%;
+	height: 37%;
+	border-bottom: 1px solid #890000;
+}
+
+.parceiros_descricao p {
+	width: 80%;
+	margin: 5% 10% 0 10%;
+}
+
+.parceiros_link {
+	width: 100%;
+	height: 9%;
+	background-color: #890000;
+	border-radius: 0 0 10px 10px;
+}
+
+.parceiros_link a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.parceiros_link p {
+	text-align: center;
+    padding: 3%;
+}

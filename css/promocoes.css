@@ -1,0 +1,186 @@
+/*
+
+	CSS PROMOCOES
+
+*/
+
+.esp_conteudo{
+	width: 100%;
+	height: auto;
+	background-color: #f4f4f4;
+}
+
+.conteudo{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top:30px;
+}
+
+.box_menu_lateral{
+	width: 250px;
+	border-right:3px solid #890000;
+	border-left:3px solid #890000;
+	height: 100%;
+	border-radius: 10px 10px 0 0;
+	background-color: white;
+	float: left;
+}
+
+.box_topo_menu_lateral{
+	width: 220px;
+	border-radius: 7px 7px 0 0;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	background: #890000; /* Old browsers */
+	color: white;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.box_conteudo_menu_lateral{
+	margin-top: 10px;
+	width: 220px;
+	padding-left: 30px;
+	float: left;
+	cursor: pointer;
+}
+
+.item_menu_lateral{
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+.esp_categoria{
+	width: 900px;
+	height:auto;
+	float: left;
+}
+
+.box_categoria{
+	width: 900px;
+	border-left:3px solid #890000;
+	border-top:3px solid #890000;
+	border-right:3px solid #890000;
+	float: left;
+	margin-left: 20px;
+	border-radius: 7px 7px 0 0;
+	position: relative;
+	background-color: #ffffff;
+}
+.box_avancar{
+	width: 50px;
+	height: 313px;
+	top:37px;
+	position: absolute;
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+#anterior{
+	left: 0;
+	background-image: url('../img/anterior_icon.png');
+}
+
+#proximo{
+	right: 0;
+	background-image: url('../img/proximo_icon.png');
+}
+
+.box_produtos{
+	width: 800px;
+	height: 363px;
+	margin-left: 50px;
+}
+
+.box_produto{
+	width: 210px;
+	padding: 5px;
+	height: 353px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	float: left;
+	position: relative;
+}
+
+.box_img_produto{
+	width: 180px;
+	height: 130px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../img/prato.png');
+}
+
+.box_titulo_produto{
+	width: 140px;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12pt;
+	margin-bottom: 10px;
+}
+
+.box_descricao_produto{
+	width: 180px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10pt;
+	margin-bottom: 10px;
+}
+
+.preco_kcal{
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.preco{
+	font-weight: bold;
+	color: #003a03;
+	text-align: center;
+}
+
+.kcal{
+	text-align: center;
+	font-weight: bold;
+	color: #39a962;
+}
+
+.box_botao_produto{
+	width: 130px;
+	border;
+	padding: 5px;
+	text-align: center;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#comprar{
+	background-color: #41a62a;
+	color: white;
+}
+
+#ver_detalhes{
+	background-color: #bc7325;
+	color: white;
+}
+
+.promocao{
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../img/promocao.png');
+}
+

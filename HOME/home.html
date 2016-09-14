@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frozen Fitness Gourmet</title>
+	<meta charset="utf-8">
+	<style type="text/css" rel="stylesheet" href="css/home.css" ></style>
+</head>
+<style type="text/css">
+
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+.corpo {
+	width: 100%;
+	height: 1000px;
+	background: url(imagens/slide1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: center;
+	font-family: Verdana;
+	color: #fff;
+	opacity: 5;
+}
+
+/* Estrutura */
+
+.box_superior {
+	width: 100%;
+	height: 50%;
+}
+
+.box_inferior {
+	width: 100%;
+	height: 50%;	
+}
+
+/* Caixa superior */
+
+/* Caixa do logo */
+
+.box_logo {
+	width: 65%;
+	height: 100%;
+	float: left;
+
+}
+
+.logo {
+	width: 20%;
+	float: left;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+.nome_empresa {
+	font-size: 3em;
+	float: left;
+	position: relative;
+	left: 4%;
+	margin-top: 14%;
+}
+
+/* Caixa do cliente */
+.box_cliente {
+	width: 35%;
+	height: 100%;
+	float: right;
+}
+
+.box_usuario {
+	width: 100%;
+	margin-top: 20%;
+	margin-left: 10%;
+	padding-bottom: 2%;
+}
+
+.box_usuario img {
+	width: 12%;
+	float: left;
+}
+
+.box_usuario p {
+	font-size: 2em;
+	position: relative;
+	top: 0.6em;
+	left: 3%;
+}
+
+
+.box_cadastro, .box_login {
+	font-size: 2em;
+	border: 4px solid #fff;
+	border-radius: 30px;
+	width: 30%;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 1%;
+	padding: 2% 10%;
+	position: relative;
+	left: 10%;
+}
+
+.box_cadastro:hover, .box_login:hover {
+	cursor: pointer;
+}
+
+.box_cadastro {
+	
+
+}
+
+.box_login {
+	border: none;
+}
+
+.box_login:hover {
+	border: 4px solid #fff;
+}
+
+/* Caixa inferior */
+
+.box_esquerda {
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+
+.box_direita {
+	width: 35%;
+	height: 100%;
+	float: right;
+}
+
+.box_esquerda p {
+	font-size: 2.5em;
+	position: relative;
+	left: 15%;
+}
+
+
+.promocao {
+	font-size: 3em;
+}
+
+.box_direita h1 {
+	font-size: 4em;
+	margin-top: 1%;
+}
+
+.frete_gratis {
+	font-size: 2em;
+	margin-top: 2%;
+	margin-left: 10%;
+}
+
+.box_direita div {
+	font-size: 2em;
+	border-radius: 45px;
+	width: 40%;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 1%;
+	padding: 4% 10%;
+	position: relative;
+	background-color: #70d06f;
+	margin-top: 10%;
+}
+
+
+</style>
+<body>
+	<div class="corpo">
+		<div class="box_superior">
+			<div class="box_logo">
+				<img class="logo" src="imagens/logo.png" alt="Logo">
+				<h1 class="nome_empresa">FROZEN FITNESS <br> GOURMET</h1>
+			</div>
+			<div class="box_cliente">
+				<div class="box_usuario">
+					<img src="imagens/user.png">
+					<p>Olá, Visitante!</p>
+				</div>
+				<div class="box_cadastro">Cadastre-se</div>
+				<div class="box_login">Fazer Login</div>
+			</div>
+		</div>
+		<div class="box_inferior">
+			<div class="box_esquerda">
+				<p>
+				Para você que deseja perder peso rápido <br>
+				ou ganhar aquela massa para o verão, <br>
+				gosta de comer bem e não dispensa <br>
+				um bom cardápio variado, conheça <br>
+				nosso site!
+				</p>
+			</div>
+			<div class="box_direita">
+				<p class="promocao">Dietas a partir de:</p>
+				<h1>R$ 18,99</h1>
+				<p class="frete_gratis">Frete Grátis</p>
+
+				<div>Conheça agora</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
